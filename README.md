@@ -39,6 +39,9 @@ docker exec -it  postgres bash
 ```
 
 ## Aliases
+
+Add to `/Users/robertopiancatelli/.oh-my-zsh/custom/roby.zsh`
+
 ```
 alias postgres_start="docker-compose -f ~/projects/postgres/docker-compose.yml up -d"
 ```
